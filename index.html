@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,300..600;1,300..600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"/>
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="card_logo-wrapper">
+      <img class="card_logo" src="./images/logo.svg"/>
+    </div>
+    
+    <img class="card_img-desktop desktop" src="./images/hero-desktop.jpg"/>
+    <img class="card_img-mobile mobile" src="./images/hero-mobile.jpg"/>
+
+    <main class="card_main">
+
+      <h1 class="card_title">We're <span>coming soon</span></h1>
+
+      <p class="card_body">Hello fellow shoppers! We're currently building our new fashion store. 
+        Add your email below to stay up-to-date with announcements and our launch deals.</p>
+
+        <form class="card_form">
+          <div class="card_input-wrapper card_input-email">
+            <input type="text" placeholder="Email Address" class="card_form_email"/>
+            <p class="card_input-error"></p>
+          </div>
+          <button class="card_form_submit"><img src="./images/icon-arrow.svg"/></button>
+        </form>
+    </main>
+  </div>
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Marco Zimmermann</a>.
+    </p>
+  </footer>
+  
+  <script src="app.js"></script>
+</body>
+</html>
